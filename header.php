@@ -40,9 +40,9 @@
         <p class="pull-right">
           <?php
             if(isset($authUrl)) {
-              print "<a class='login' href='$authUrl'>Connect Me!</a>";
+              echo '<p class="pull-right"><a class='login' href="'.$authUrl.'">Connect Me!</a></p>';
             } else {
-              echo $personMarkup;
+              echo '<p class="pull-right">'.$personMarkup .'</p>';
             }
           ?>
         </p>
