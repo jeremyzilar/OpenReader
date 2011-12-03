@@ -62,7 +62,7 @@ try
 	{
 		$getAuthTokenParams = array('scope' => 
 			'http://docs.google.com/feeds/',
-			'xoauth_displayname' => 'OpenReader',
+			'oauth_displayname' => 'OpenReader',
 			'oauth_callback' => 'http://jeremyzilar.com/openreader/OpenReader/oauth-php/example/client/googledocs.php'); //Hoping this works
 		// get a request token
 		$tokenResultParams = OAuthRequester::requestRequestToken(GOOGLE_CONSUMER_KEY, 0, $getAuthTokenParams);
