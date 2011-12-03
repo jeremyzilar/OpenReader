@@ -25,7 +25,7 @@ $client->setApplicationName("Google+ PHP Starter Application");
 // oauth2_client_id, oauth2_client_secret, and to register your oauth2_redirect_uri.
 $client->setClientId('175932557752.apps.googleusercontent.com');
 $client->setClientSecret('yeGarCs_5gK48vDzHbIzZDth');
-$client->setRedirectUri('http://jeremyzilar.com/reader/google-api-php-client/examples/plus/');
+$client->setRedirectUri('http://jeremyzilar.com/openreader/google-api-php-client/examples/plus/');
 $client->setDeveloperKey('AIzaSyCL2omoB7ysWe7C9YflYTXTOeP4Cpc2GZs');
 $plus = new apiPlusService($client);
 
