@@ -32,8 +32,8 @@
 include_once "../../library/OAuthStore.php";
 include_once "../../library/OAuthRequester.php";
 
-define("GOOGLE_CONSUMER_KEY", "FILL THIS"); // 
-define("GOOGLE_CONSUMER_SECRET", "FILL THIS"); // 
+define("GOOGLE_CONSUMER_KEY", "760429901822.apps.googleusercontent.com"); // 
+define("GOOGLE_CONSUMER_SECRET", "wy5IEr8UAdQ2zZS-RXDHjctC"); // 
 
 define("GOOGLE_OAUTH_HOST", "https://www.google.com");
 define("GOOGLE_REQUEST_TOKEN_URL", GOOGLE_OAUTH_HOST . "/accounts/OAuthGetRequestToken");

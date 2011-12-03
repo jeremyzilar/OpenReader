@@ -1,0 +1,26 @@
+Jeremy Zilar
+http://silencematters.com
+@jeremyzilar
+The New York Times
+
+- - - - - - - - 
+
+OpenReader is a recommendation engine for the web, enabling any active reader to subscribe to, manage and discover new things to read.
+
+I am building on top of the Google Reader APIs to pull in list of feed that you are subscribed to in Google Reader and present the user with feeds that are related. You will be able to subscribe/unsubscribe to new feeds right from this interface.
+
+Using:
+Google Reader API - http://code.google.com/p/google-reader-api/w/list
+OAuth PHP - http://code.google.com/p/oauth-php/wiki/ConsumerHowTo
+
+Feeds:
+Your Subscriptions in Google Reader:
+http://www.google.com/reader/api/0/subscription/list?output=json (change "json" to "xml" to get XML output).
+
+To get details about a subscription:
+http://www.google.com/reader/api/0/stream/details?s=feed/http://newsrss.bbc.co.uk/rss/newsonline_world_edition/front_page/rss.xml&output=json
+
+To get related feeds:
+http://www.google.com/reader/api/0/related/list?s=feed/http://newsrss.bbc.co.uk/rss/newsonline_world_edition/front_page/rss.xml&output=json
+
+I also plan to do the same using the Twitter API.
