@@ -36,9 +36,9 @@ include_once "../../library/OAuthRequester.php";
 
 // Test of the OAuthStore2Leg 
 
-$key = '???????'; // fill with your public key 
-$secret = '????????'; // fill with your secret key
-$url = "?????????"; // fill with the url for the oauth service
+$key = '760429901822.apps.googleusercontent.com'; // fill with your public key 
+$secret = 'wy5IEr8UAdQ2zZS-RXDHjctC'; // fill with your secret key
+$url = "http://jeremyzilar.com/openreader/OpenReader/oauth-php/example/client/googledocs.php"; // fill with the url for the oauth service
 
 $options = array('consumer_key' => $key, 'consumer_secret' => $secret);
 OAuthStore::instance("2Leg", $options);
