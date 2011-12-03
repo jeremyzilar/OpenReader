@@ -43,7 +43,6 @@
               print "<a class='login' href='$authUrl'>Connect Me!</a>";
             } else {
               echo $personMarkup;
-              print "<a class='logout' href='?logout'>Logout</a>";
             }
           ?>
         </p>

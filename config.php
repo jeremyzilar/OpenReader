@@ -52,7 +52,7 @@ if ($client->getAccessToken()) {
   $url = filter_var($me['url'], FILTER_VALIDATE_URL);
   $img = filter_var($me['image']['url'], FILTER_VALIDATE_URL);
   $name = filter_var($me['displayName'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
-  $personMarkup = "<a rel='me' href='$url'>$name</a><div><img src='$img?sz=82'></div>";
+  $personMarkup = "<div class='profile_img'><img src='$img?sz=82'></div><a rel='me' href='$url'>$name</a><a class='logout' href='?logout'>Logout</a>";
 
   $optParams = array('maxResults' => 100);
   $activities = $plus->activities->listActivities('me', 'public', $optParams);
