@@ -42,6 +42,7 @@
             if(isset($authUrl)) {
               print "<a class='login' href='$authUrl'>Connect Me!</a>";
             } else {
+              echo '<a rel='me' href='$url'>$name</a>';
              print "<a class='logout' href='?logout'>Logout</a>";
             }
           ?>
