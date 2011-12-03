@@ -1,5 +1,5 @@
 <?php
-
+// ...
 /**
  * oauth-php: Example OAuth client
  *
