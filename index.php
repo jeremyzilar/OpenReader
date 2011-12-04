@@ -4,7 +4,7 @@
   <div class="hero-unit">
     <h1>Hello, Reader!</h1>
     <p>OpenReader is a recommendation engine for the web, enabling any active reader to subscribe to, manage and discover new things to read.</p>
-    <p><a class="btn primary large">Learn more &raquo;</a></p>
+    <p><a href="https://github.com/jeremyzilar/OpenReader" class="btn primary large">Learn more &raquo;</a></p>
   </div>
   
   <hr />
@@ -28,8 +28,8 @@
       <div class="alert-message block-message success">
         <a class="close" href="#">×</a>
         <p><strong>Feed URL:</strong>	<a href="http://www.alistapart.com/site/rss" title="A List Apart">http://www.alistapart.com/site/rss</a><br />
-        <strong>Posts per week:</strong>	0.7<br />
-        <strong>Subscribers:</strong>	56,441<br />
+        <strong>Posts per week:</strong> <span class="label warning">56,441</span><br />
+        <strong>Subscribers:</strong>	<span class="label notice">56,441</span><br />
         <strong>Last updated:</strong>	9:00 PM <em>(14 minutes ago)</em></p>
         <div class="alert-actions">
           <a class="btn small" href="#">Subscribe</a> <a class="btn small" href="#">Unsubscribe</a>
